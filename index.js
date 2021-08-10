@@ -2,6 +2,7 @@ class ClassList {
   constructor(classString, condition = true) {
     this.classes = new Set()
     this.add(classString, condition)
+    return this
   }
 
   add(classString, condition = true) {
@@ -9,6 +10,7 @@ class ClassList {
       const classes = classString.split(' ')
       classes.map((c) => this.classes.add(c))
     }
+    return this
   }
 
   remove(classString, condition = true) {
@@ -16,6 +18,7 @@ class ClassList {
       const classes = classString.split(' ')
       classes.map((c) => this.classes.delete(c))
     }
+    return this
   }
 
   toClassString() {
