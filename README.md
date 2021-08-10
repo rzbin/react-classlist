@@ -1,6 +1,6 @@
 # react-classlist
 
-A simple class list to use in react projects.
+A simple class list to use in React projects.
 
 Compatible with TailwindCSS
 

@@ -1,7 +1,7 @@
 {
   "name": "react-classlist",
-  "version": "1.0.0",
-  "description": "A simple class list to use in react projects",
+  "version": "1.1.0",
+  "description": "A simple class list to use in React projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "react",
-    "class"
+    "class",
+    "list",
+    "classes"
   ],
   "author": "rzbin",
   "license": "ISC",
