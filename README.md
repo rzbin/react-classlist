@@ -13,23 +13,41 @@ export default function Component() {
 
   const classes = new ClassList('container whitebg')
 
-  ...
+  //...
 
   classes.add('redtext')
 
-  ...
+  //...
 
-  classes.add('loading', isLoading)
+  classes.add('highscore', score > 100)
+
+  //...
+
+  classes.add({
+    'dark': true,
+    'light': false
+  })
+
+  //...
+
+  classes.add(['loading-spinner', 'visible'])
+
+  //...
 
   return (
     <div className={classes}>
-      ...
+
     </div>
   )
 }
-
 ```
 
 # Installation
 
 `npm i react-classlist`
+
+# Testing
+
+`npm run test`
+
+Coverage: 100%
