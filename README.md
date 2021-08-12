@@ -13,26 +13,9 @@ export default function Component() {
 
   const classes = new ClassList('container whitebg')
 
-  //...
-
   classes.add('redtext')
 
-  //...
-
   classes.add('highscore', score > 100)
-
-  //...
-
-  classes.add({
-    'dark': true,
-    'light': false
-  })
-
-  //...
-
-  classes.add(['loading-spinner', 'visible'])
-
-  //...
 
   return (
     <div className={classes}>
